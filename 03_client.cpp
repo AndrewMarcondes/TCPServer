@@ -12,9 +12,7 @@ void die(const char* msg) {
 	exit(1);
 }
 
-
 int main() {
-
 
 int fd = socket(AF_INET, SOCK_STREAM, 0);
 if (fd < 0) {
